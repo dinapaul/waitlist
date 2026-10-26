@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+  --burgundy: #54202e;
+  --ivory: #fdf8f5;
+  --rose: #d99aa8;
+  --rose-deep: #c48998;
+  --ivory-muted: rgba(253, 248, 245, 0.78);
+  --line-on-ivory: rgba(84, 32, 46, 0.16);
+  --line-on-burgundy: rgba(253, 248, 245, 0.28);
+  --white: #ffffff;
+  --blush: #f6ebe8;
+  --ink-soft: rgba(84, 32, 46, 0.74);
+  --field: rgba(253, 248, 245, 0.08);
+  --serif: Fraunces, "Iowan Old Style", Palatino, Georgia, serif;
+  --sans: Karla, "Avenir Next", "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--burgundy);
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-wrap: pretty;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(217, 154, 168, 0.45);
+  color: var(--burgundy);
+}
