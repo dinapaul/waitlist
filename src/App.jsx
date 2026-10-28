@@ -76,7 +76,6 @@ export default function App() {
             <span>For wedding vendors:</span> relevant inquiries and insights
             into what drives bookings.
           </p>
-          <p className="place">Starting in Philadelphia.</p>
           <WaitlistForm />
         </div>
       </header>
